@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Stellar Distance Online app</title>
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8"/>
+    <style type="text/css"></style>
+</head>
+<body>
+    <div style="float:left">
+        Star 1 name: <input id="s1a" type="text" value="Altair"/><br />
+        Distance(ly): <input id="d1y" type="text" value="16.77"/><br />
+            RA Hour: <input id="r1a" type="number" value="19"/><br />
+            RA Min: <input id="r1b" type="number" value="51"/><br />
+            RA Sec: <input id="r1c" type="number" value="28"/><br />
+            Dec Deg: <input id="d1a" type="number" value="8"/><br />
+            Dec Arcmin: <input id="d1b" type="number" value="54"/><br />
+            Dec Arcsec: <input id="d1c" type="number" value="18"/><br />
+    
+        <p id="result1">Star 1 Name</p>
+        <p id="result2">Star 1 Right Ascension</p>
+        <p id="result3">Star 1 Declination</p>
+    </div>
+    <div style="float:left">
+        Star 2 name: <input id="s2a" type="text" value="Vega"/><br />
+        Distance(ly): <input id="d2y" type="text" value="25.3"/><br />
+            RA Hour: <input id="r2a" type="number" value="18"/><br />
+            RA Min: <input id="r2b" type="number" value="37"/><br />
+            RA Sec: <input id="r2c" type="number" value="25"/><br />
+            Dec Deg: <input id="d2a" type="number" value="38"/><br />
+            Dec Arcmin: <input id="d2b" type="number" value="47"/><br />
+            Dec Arcsec: <input id="d2c" type="number" value="49"/><br />
+    
+        <p id="result4">Star 2 Name</p>
+        <p id="result5">Star 2 Right Ascension</p>
+        <p id="result6">Star 2 Declination</p>
+    </div>
+    <div>
+        Total Distance(ly): <p id="result7">Value in (ly)</p>
+        <input id="button1" type="button" value="Calculate" /><br />
+        <form action="http://esteban19.github.io/StellarDistance.html">
+            <input type="submit" value="Refresh values" />
+        </form>
+        <a href="http://esteban19.github.io">Return to my homepage</a><br />
+        <a href="http://google.com">Exit to Google</a>
+    </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="/javascripts/StellarDistance.js"></script>
+
+</body>
+</html>
