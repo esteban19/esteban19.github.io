@@ -1,0 +1,32 @@
+﻿/* Global CSS values */
+* { padding: 0px; margin: 0px;}
+a { text-decoration:none; }
+p { padding-left: 10px;}
+
+/* Centering container on highest div tag */
+.container {width:700px; margin-left:auto; margin-right:auto;}
+.header {background-color: aliceblue;}
+.header h1 {color: darkblue; line-height:90px;}
+.header img {float:left; height:80px; width:106px; padding:5px; margin-right:20px;}
+.nav {background-color:#ffdd99; width:150px; float:left;}
+.nav ul {margin: 15px; list-style-type:none;}
+.content {float:left; width:400px;}
+.right {background-color: #bb9955; float:left; width:150px;}
+.footer {clear:left;background-color:#bb9955;}
+
+/* Basic structure of menus */
+.navi ul {list-style:none; margin:0;padding:0;}
+.navi li {float:left; width:100px; background-color:#444444; text-align:center;
+          border-right:1px solid white; position:relative;
+          height:30px; line-height:30px;}
+.navi li ul li {float:none; width:150px; text-align:left; padding-left: 5px;
+                border-top:1px solid white;}
+.navi a {text-decoration:none; color:white;}
+.navi li ul {position: absolute; top:30px; left:0px; visibility:hidden;}
+
+/* Centering: How To (display, margin-left, margin-right, width) */
+.closingcontent {clear:both; display:block; margin-left:auto; margin-right:auto; width:200px;}
+
+/* Functionality */
+.navi li:hover {background-color:maroon;}
+.navi li:hover ul {visibility:visible;}
