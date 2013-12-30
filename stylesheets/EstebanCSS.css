@@ -10,8 +10,8 @@ p { padding-left: 10px;}
 .header img {float:left; height:80px; width:106px; padding:5px; margin-right:20px;}
 .nav {background-color:#ffdd99; width:150px; float:left;}
 .nav ul {margin: 15px; list-style-type:none;}
-.content {float:left; width:400px;}
-.right {background-color: #bb9955; float:left; width:150px;}
+.content {float:left; width:380px;}
+.right {background-color: #bb9955; float:left; width:170px;}
 .footer {clear:left;background-color:#bb9955;}
 
 /* Basic structure of menus */
