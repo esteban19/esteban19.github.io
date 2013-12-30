@@ -1,0 +1,31 @@
+﻿.navi {
+    width: 170px;
+    background-color: #444444;
+    text-align: center;
+    border-right: 1px solid white;
+    text-decoration:none;
+    color:white;
+}
+.navi p {
+    text-decoration:none;
+    background-color:maroon;
+    color:white;
+}
+.navi input {
+    text-align:center;
+}
+.navigate {
+    width: 250px;
+    background-color: #444444;
+    text-align: center;
+    border-right: 1px solid white;
+    text-decoration:none;
+    color:white;
+    float:left;
+}
+.navigate p {
+    text-decoration:none;
+    background-color:maroon;
+    color:white;
+}
+

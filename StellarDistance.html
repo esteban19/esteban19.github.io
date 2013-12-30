@@ -3,10 +3,10 @@
 <head>
     <title>Stellar Distance Online app</title>
     <meta http-equiv="content-type" content="text/html"; charset="utf-8"/>
-    <style type="text/css"></style>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/StellarDistance.css" />
 </head>
 <body>
-    <div style="float:left">
+    <div class="navi" style="float:left">
         Star 1 name: <input id="s1a" type="text" value="Altair"/><br />
         Distance(ly): <input id="d1y" type="text" value="16.77"/><br />
             RA Hour: <input id="r1a" type="number" value="19"/><br />
@@ -16,11 +16,14 @@
             Dec Arcmin: <input id="d1b" type="number" value="54"/><br />
             Dec Arcsec: <input id="d1c" type="number" value="18"/><br />
     
-        <p id="result1">Star 1 Name</p>
-        <p id="result2">Star 1 Right Ascension</p>
-        <p id="result3">Star 1 Declination</p>
+        Star 1 Name
+        <p id="result1"></p>
+        Star 1 Right Ascension
+        <p id="result2"></p>
+        Star 1 Declination
+        <p id="result3"></p>
     </div>
-    <div style="float:left">
+    <div class="navi" style="float:left">
         Star 2 name: <input id="s2a" type="text" value="Vega"/><br />
         Distance(ly): <input id="d2y" type="text" value="25.3"/><br />
             RA Hour: <input id="r2a" type="number" value="18"/><br />
@@ -30,12 +33,15 @@
             Dec Arcmin: <input id="d2b" type="number" value="47"/><br />
             Dec Arcsec: <input id="d2c" type="number" value="49"/><br />
     
-        <p id="result4">Star 2 Name</p>
-        <p id="result5">Star 2 Right Ascension</p>
-        <p id="result6">Star 2 Declination</p>
+        Star 2 Name
+        <p id="result4"></p>
+        Star 2 Right Ascension
+        <p id="result5"></p>
+        Star 2 Declination
+        <p id="result6"></p>
     </div>
-    <div>
-        Total Distance(ly): <p id="result7">Value in (ly)</p>
+    <div class="navigate">
+        Total Distance(ly): <p id="result7"></p>
         <input id="button1" type="button" value="Calculate" /><br />
         <form action="http://esteban19.github.io/StellarDistance.html">
             <input type="submit" value="Refresh values" />
